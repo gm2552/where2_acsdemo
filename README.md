@@ -33,4 +33,8 @@ kubectl apply -f configurationSlice.yaml -n <workload namespace>
 ### Deploy the Crawler Service
 
 
-Deploy the crawler service by
+Deploy the crawler service by running the following command from the `./where-for-dinner-crawler`
+
+```
+tanzu apps workload apply -f config/workload.yaml -n workloads
+```

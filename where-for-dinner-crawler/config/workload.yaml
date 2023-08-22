@@ -12,7 +12,7 @@ spec:
   - name: spring_profiles_active
     value: rabbitmq
   - name: SPRING_CONFIG_IMPORT
-    value: "optional:configtree:${SERVICE_BINDING_ROOT}/config"   
+    value: "optional:configtree:${SERVICE_BINDING_ROOT}/config/"   
   params:
   - name: ports
     value:
