@@ -1,0 +1,10 @@
+apiVersion: "config.apps.tanzu.vmware.com/v1alpha4"
+kind: ConfigurationSource
+metadata:
+  name: where-for-dinner-config-source
+spec:
+  backends:
+    - type: git
+      uri: https://github.com/gm2552/where-for-dinner-services-config
+      defaultLabel: main
+

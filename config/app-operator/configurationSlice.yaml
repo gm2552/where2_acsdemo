@@ -1,0 +1,33 @@
+---
+apiVersion: "config.apps.tanzu.vmware.com/v1alpha4"
+kind: ConfigurationSlice
+metadata:
+  name: where-for-dinner-search-config-slice
+spec:
+  secretStrategy: applicationProperties
+  configurationSource: where-for-dinner-config-source
+  interval: 30s
+  content:
+  - where-for-dinner-search
+---
+apiVersion: "config.apps.tanzu.vmware.com/v1alpha4"
+kind: ConfigurationSlice
+metadata:
+  name: where-for-dinner-notify-config-slice
+spec:
+  configurationSource: where-for-dinner-config-source
+  interval: 30s
+  content:
+  - where-for-dinner-notify
+---
+apiVersion: "config.apps.tanzu.vmware.com/v1alpha4"
+kind: ConfigurationSlice
+metadata:
+  name: where-for-dinner-cralwer-config-slice
+spec:
+  secretStrategy: applicationProperties
+  configurationSource: where-for-dinner-config-source
+  interval: 30s
+  content:
+  - where-for-dinner-crawler
+
