@@ -7,4 +7,6 @@ spec:
     - type: git
       uri: https://github.com/gm2552/where-for-dinner-services-config
       defaultLabel: main
-
+      secretRef:
+        name: where-for-dinner-creds
+        namespace: workloads

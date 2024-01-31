@@ -29,9 +29,9 @@ spec:
       value: "17"
   source:
     git:
-      url: https://github.com/gm2552/application-accelerator-samples
+      url: https://github.com/vmware-tanzu/application-accelerator-samples
       ref:
-        branch: main
+        branch: tap-1.7.x
     subPath: where-for-dinner/where-for-dinner-api-gateway
 ---
 apiVersion: carto.run/v1alpha1
@@ -80,9 +80,9 @@ spec:
       value: "17"
   source:
     git:
-      url: https://github.com/gm2552/application-accelerator-samples
+      url: https://github.com/vmware-tanzu/application-accelerator-samples
       ref:
-        branch: main
+        branch: tap-1.7.x
     subPath: where-for-dinner/where-for-dinner-search
 ---
 apiVersion: carto.run/v1alpha1
@@ -129,9 +129,9 @@ spec:
       cpu: 1500m
   source:
     git:
-      url: https://github.com/gm2552/application-accelerator-samples
+      url: https://github.com/vmware-tanzu/application-accelerator-samples
       ref:
-        branch: main
+        branch: tap-1.7.x
     subPath: where-for-dinner/where-for-dinner-search-proc
 ---
 apiVersion: carto.run/v1alpha1
@@ -180,9 +180,9 @@ spec:
       cpu: 1500m
   source:
     git:
-      url: https://github.com/gm2552/application-accelerator-samples
+      url: https://github.com/vmware-tanzu/application-accelerator-samples
       ref:
-        branch: main
+        branch: tap-1.7.x
     subPath: where-for-dinner/where-for-dinner-notify
 ---
 apiVersion: carto.run/v1alpha1
@@ -224,9 +224,9 @@ spec:
       cpu: "1.5"
   source:
     git:
-      url: https://github.com/gm2552/application-accelerator-samples
+      url: https://github.com/vmware-tanzu/application-accelerator-samples
       ref:
-        branch: main
+        branch: tap-1.7.x
     subPath: where-for-dinner/where-for-dinner-availability
 ---
 apiVersion: carto.run/v1alpha1
@@ -263,9 +263,9 @@ spec:
       cpu: 1500m
   source:
     git:
-      url: https://github.com/gm2552/application-accelerator-samples
+      url: https://github.com/vmware-tanzu/application-accelerator-samples
       ref:
-        branch: main
+        branch: tap-1.7.x
     subPath: where-for-dinner/where-for-dinner-ui
 ---
 apiVersion: carto.run/v1alpha1
@@ -307,7 +307,7 @@ spec:
       name: where-for-dinner-crawler-config-slice        
   source:
     git:
-      url: https://github.com/gm2552/application-accelerator-samples
+      url: https://github.com/vmware-tanzu/application-accelerator-samples
       ref:
-        branch: main
+        branch: tap-1.7.x
     subPath: where-for-dinner/where-for-dinner-crawler
